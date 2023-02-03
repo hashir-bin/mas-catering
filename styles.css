@@ -1,0 +1,169 @@
+* {}
+
+body {
+    overflow-x: hidden;
+    margin: 0%;
+    word-wrap: break-word;
+    margin: auto;
+    padding: 0px;
+}
+
+.Main-Header {
+    justify-content: space-between;
+    background-color: rgb(9, 17, 17);
+}
+
+.Header {
+    height: 62px;
+    background-color: rgb(9, 17, 17);
+}
+
+#Mas-Logo-img {
+    max-width: 89px;
+    height: auto;
+    margin-left: 3rem;
+}
+
+.Navbar {
+    width: 50;
+    align-items: center;
+    background-color: rgb(9, 17, 17);
+    border: none;
+    color: white;
+}
+
+.Navbar-li {
+    font-weight: bold;
+    color: white;
+}
+
+/* .......... */
+.Bg-img {
+    color: white;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, -5.3),
+            rgba(0, 0, 0, 0.7)), url('bg-img');
+    max-width: 100%;
+    font-family: cursive;
+    font-style: oblique;
+    /*below 2 imp for middle cover */
+    background-size: cover;
+    background-position: center center;
+}
+
+.High-standard-text {
+    font-size: 6vw;
+    font-weight: bold;
+    padding-top: 31vh;
+    position: relative;
+}
+
+.order-and-read-btn {
+    height: 55px;
+    width: 186px;
+    border-radius: 30px;
+    border: solid white 1px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.order-and-read-btn:hover {
+    background-color: #ffc107;
+}
+
+.about-mas-heading {
+    font-weight: bold;
+    font-family: ui-serif;
+}
+
+.about-para-1 {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: grey;
+}
+
+.about-para-2 {
+    color: grey;
+}
+
+.order-and-learn-btn {
+    border: solid #ffc107 1px;
+    background-color: transparent;
+    width: 116px;
+    height: 38px;
+    border-radius: 13px;
+}
+
+#order-btn-hover:hover {
+    background-color: #ffc107;
+}
+
+.service-page-main-div {
+    background-image: linear-gradient(rgba(0, 0, 0, -5.3),
+            rgba(0, 0, 0, 0.7)), url(service-bg2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    margin: auto;
+    backdrop-filter: blur(5px);
+}
+
+.every-page-heading {
+    font-family: fantasy;
+    font-size: 47px;
+    font-style: italic;
+}
+
+.service-card {
+    background-color: #FFFFFF;
+    justify-items: end;
+
+}
+
+.card-inside-icons {
+    width: 44px;
+}
+
+.about-of-service-card {
+    color: #858585;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+.img-of-menu{
+    width: 61px;
+    border-radius: 100%;
+}
+
+.mission-main-div {
+    background-image: linear-gradient(rgba(0, 0, 0, -5.3),
+            rgba(40 39 39 / 70%)), url(mission-bg-img);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 110%;
+    margin-left: -16px;
+}
+
+/* gdjksldvncm,ncvbn */
+.contact-about {
+    font-size: 13px;
+    line-height: 26px;
+    color: #5e5959;
+}
+
+.input-of-form {
+    border: solid gray 1px;
+}
+
+.send-btn {
+    width: 158px;
+    height: 40px;
+    border-radius: 30px;
+    border: solid 0;
+}
